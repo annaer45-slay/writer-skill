@@ -1,0 +1,25 @@
+{
+  "skill": "writer",
+  "test_cases": [
+    {
+      "input": "Напиши статью о ...",
+      "should_trigger": true
+    },
+    {
+      "input": "Помоги сочинить рассказ",
+      "should_trigger": true
+    },
+    {
+      "input": "Отредактируй этот текст",
+      "should_trigger": true
+    },
+    {
+      "input": "Какая погода сегодня",
+      "should_trigger": false
+    },
+    {
+      "input": "Напиши код на Python",
+      "should_trigger": false
+    }
+  ]
+}
